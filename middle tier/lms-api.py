@@ -10,7 +10,7 @@ import bcrypt
 app = Flask(__name__)
 CORS(app)
 
-app.config["MONGO_URI"] = "mongodb+srv://ucmadmin:Ucm%402024@lms-cluster.fb5iomn.mongodb.net/lms_testing"
+app.config["MONGO_URI"] = "MongoDB URL"
 #app.config["MONGO_URI"] = "mongodb://localhost:27017/LMS"
 mongo = PyMongo(app,tlsCAFile=certifi.where())
 
